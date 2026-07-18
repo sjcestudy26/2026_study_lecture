@@ -2,6 +2,26 @@ import { Injectable, ServiceUnavailableException } from '@nestjs/common';
 import { InjectDataSource } from '@nestjs/typeorm';
 import { DataSource } from 'typeorm';
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+// 수강생 최용재 작업 영역
+const currentWorker = "최용재";
+const currentWorkers = [
+  '이범준',
+  '최용재',
+  '황윤식',
+  '홍정기',
+  '김효동1',
+  'ASH',
+];
+//injectable
+const something = "on my branch heyeyeye"
+
+//test
+=======
+>>>>>>> 650a031 (쓸데없는 코드 제거)
+>>>>>>> 66fc25f (정리)
 
 
 @Injectable()
