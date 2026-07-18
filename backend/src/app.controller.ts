@@ -4,7 +4,8 @@ import { AppService } from './app.service';
 
 
 // 수강생 김홍엽 작업 영역
-const currentWorker = "여기는 단풍브랜치요 머지받으시라요";
+const currentWorker = "으아아아악";
+const currentWorker = "여기는 단풍브랜치요";
 
 
 @Controller()
@@ -12,7 +13,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get('health')
-  getHealth() {
+  getHealth() { //머지??
     return this.appService.getHealth();
   }
 
@@ -21,10 +22,11 @@ export class AppController {
     return this.appService.checkDatabase();
   }
 
-  @Get('server-info')//머지?
-  getServerInfo() {
+  @Get('server-info') 
+  getServerInfo() { //stash할것
     return this.appService.getServerInfo();
   }
+    
 }
 
 //수강생 정재경 작업영역
