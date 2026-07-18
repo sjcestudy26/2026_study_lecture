@@ -9,6 +9,7 @@ const currentWorker = '최용재';
 <<<<<<< HEAD
 >>>>>>> ee3a8a1 (feat:최용재의 일상)
 
+<<<<<<< HEAD
 // 수강생 송민준 작업 영역
 const currentWorkers = [
   '이범준',
@@ -28,6 +29,11 @@ const currentWorkers = [
   '이정우'
   '정재경'
 ];
+=======
+<<<<<<< HEAD
+//injectable
+const something = "on my branch"
+>>>>>>> e81dd4c (충돌제거실습)
 
 <<<<<<< HEAD
 // injectable
@@ -39,7 +45,23 @@ const something = 'on my branch';
 // 수강생 최용재 작업 영역
 const currentWorker = "최용재";
 >>>>>>> 01c8117 (feat:최용재의 일상)
+<<<<<<< HEAD
 >>>>>>> ee3a8a1 (feat:최용재의 일상)
+=======
+=======
+// 수강생 송민준 작업 영역
+const currentWorkers = [
+  '이범준',
+  '최용재',
+  '황윤식',
+  '홍정기',
+  '김효동',
+  'ASH',
+  '송민준'
+  '이정우'
+];
+>>>>>>> d4eecc6 (Feat: name)
+>>>>>>> e81dd4c (충돌제거실습)
 
 @Injectable()
 export class AppService {
