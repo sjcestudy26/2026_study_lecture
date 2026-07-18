@@ -19,9 +19,13 @@ export class AppController { // 주석달기
     return this.appService.checkDatabase();
   }
 
+<<<<<<< HEAD
   // stash 후 server-info add comment
   @Get('server-info') ///asdf wasd
   //git stash111111
+=======
+  @Get('server-info')//asdf
+>>>>>>> c9a5cc8 (stash test)
   getServerInfo() {
     return this.appService.getServerInfo();
   } // TESTTESTESTs
