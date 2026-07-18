@@ -5,7 +5,6 @@ import { DataSource } from 'typeorm';
 // 수강생 홍정기 작업 영역
 const currentWorker = "홍정기";
 
-
 @Injectable()
 export class AppService {
   private readonly startedAt = Date.now();
