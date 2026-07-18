@@ -14,8 +14,7 @@ const currentWorkers = [
   '김효동1',
   '안세호',
   '송민준',
-  '이정우',
-  'ASH',
+  '이정우'
 ];
 
 // injectable
