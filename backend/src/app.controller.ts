@@ -20,7 +20,6 @@ export class AppController {
   checkDatabase() {
     return this.appService.checkDatabase();
   }
-
   @Get('server-info')
   //git stash111111
   getServerInfo() {
@@ -30,3 +29,5 @@ export class AppController {
 
 //수강생 정재경 작업영역
 const currentWorker = "정재경";
+
+//sdfdsfs
