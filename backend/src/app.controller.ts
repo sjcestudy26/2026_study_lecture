@@ -8,7 +8,7 @@ const currentWorker = "으아아아악";
 
 
 @Controller()
-export class AppController {
+export class AppController { // 주석달기
   constructor(private readonly appService: AppService) {}
 
   @Get('health')
