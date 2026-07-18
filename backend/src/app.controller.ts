@@ -21,7 +21,7 @@ export class AppController {
     return this.appService.checkDatabase();
   }
 
-  @Get('server-info')
+  @Get('server-info')//머지?
   getServerInfo() {
     return this.appService.getServerInfo();
   }
