@@ -1,22 +1,27 @@
-// 수강생 홍길동 작업 영역
-const currentWorker = "김주환";
-
 import { Injectable, ServiceUnavailableException } from '@nestjs/common';
 import { InjectDataSource } from '@nestjs/typeorm';
 import { DataSource } from 'typeorm';
 
-
-// 수강생 송민준 작업 영역
+// 수강생 최용재 작업 영역
+const currentWorker = "최용재";
 const currentWorkers = [
-  '이범준1',
+  '이범준',
   '최용재',
   '황윤식',
   '홍정기',
-  '김효동',
+  '김효동1',
   'ASH',
   '송민준'
   '이정우1111'
+  'cool_guy'
+  '이정우'
+  '정재경'
 ];
+//injectable
+const something = "on my branch"
+
+//test
+
 
 @Injectable()
 export class AppService {
@@ -27,7 +32,6 @@ export class AppService {
   getHealth() {
     return {
       status: 'ok',
-      currentWorkers,
       timestamp: new Date().toISOString(),
     };
   }
@@ -59,8 +63,4 @@ export class AppService {
       port: process.env.PORT ?? 3000,
     };
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 557768356c4f382ae6dc62fe56833d2b86d80c2b
