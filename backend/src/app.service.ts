@@ -74,5 +74,3 @@ export class AppService {
   }
 }
 
-// 수강생 안세호 작업 영역
-const currentWorker = "ASH";
