@@ -5,7 +5,7 @@ import { AppService } from './app.service';
 const currentWorker = "Biggy smalls real name, no gimmicks";
 
 @Controller()
-export class AppController {
+export class AppController { // 주석달기
   constructor(private readonly appService: AppService) {}
 
   
@@ -19,6 +19,7 @@ export class AppController {
     return this.appService.checkDatabase();
   }
 
+  // stash 후 server-info add comment
   @Get('server-info') ///asdf wasd
   //git stash111111
   getServerInfo() {
