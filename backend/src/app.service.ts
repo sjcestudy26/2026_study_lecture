@@ -2,7 +2,7 @@ import { Injectable, ServiceUnavailableException } from '@nestjs/common';
 import { InjectDataSource } from '@nestjs/typeorm';
 import { DataSource } from 'typeorm';
 
-//수강생 이범준 작업 영역
+//수강생 이범준 작업 영역1
 const currentWorker = "이범준";
 @Injectable()
 export class AppService {
