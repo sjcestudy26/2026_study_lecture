@@ -1,6 +1,11 @@
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 
+
+
+// 수강생 김홍엽 작업 영역
+const currentWorker = "김홍엽";
+
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}

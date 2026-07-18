@@ -2,6 +2,13 @@ import { Injectable, ServiceUnavailableException } from '@nestjs/common';
 import { InjectDataSource } from '@nestjs/typeorm';
 import { DataSource } from 'typeorm';
 
+<<<<<<< HEAD
+// 수강생 황윤식 작업 영역
+const currentWorker = "황윤식";
+=======
+
+>>>>>>> b2422c8a7d40d32df7fae429a78ddff7ee4ea69f
+
 @Injectable()
 export class AppService {
   const currentWorker = "ddd";
@@ -44,3 +51,5 @@ export class AppService {
     };
   }
 }
+
+const currentWorker "김효동";
