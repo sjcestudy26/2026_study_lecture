@@ -4,7 +4,7 @@ import { DataSource } from 'typeorm';
 
 
 //수강생 이범준 작업 영역1
-const currentWorker1 = "이범준";
+const currentWorker1 = "이범준1";
 
 // 수강생 최용재 작업 영역
 const currentWorker2 = "최용재";
