@@ -13,7 +13,7 @@ const currentWorkers = [
   '황윤식',
   '홍정기',
   '김효동',
-  'ASH',
+  '안세호',
   '송민준'
   '이정우'
 ];
@@ -59,8 +59,4 @@ export class AppService {
       port: process.env.PORT ?? 3000,
     };
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 557768356c4f382ae6dc62fe56833d2b86d80c2b
