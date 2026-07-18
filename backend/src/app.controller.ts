@@ -11,7 +11,7 @@ const currentWorker = "으아아아악";
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Get('health')
+  @Get('health') 
   getHealth() {
     return this.appService.getHealth();
   }
@@ -21,7 +21,7 @@ export class AppController {
     return this.appService.checkDatabase();
   }
 
-  @Get('server-info')
+  @Get('server-info') // wasd
   getServerInfo() {
     return this.appService.getServerInfo();
   }
