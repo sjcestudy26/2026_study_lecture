@@ -11,6 +11,9 @@ const currentWorkers = [
   '홍정기',
   '김효동1',
   'ASH',
+  '송민준'
+  '이정우'
+  '정재경'
 ];
 //injectable
 const something = "on my branch"
