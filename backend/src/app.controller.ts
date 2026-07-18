@@ -8,8 +8,9 @@ const currentWorker = "Biggy smalls real name, no gimmicks";
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
+  
   @Get('health') // 하이
-  getHealth() {
+  getHealth() { //머지??
     return this.appService.getHealth();
   }
 
@@ -17,12 +18,13 @@ export class AppController {
   checkDatabase() {
     return this.appService.checkDatabase();
   }
-  
+
   @Get('server-info') ///asdf wasd
   //git stash111111
   getServerInfo() {
     return this.appService.getServerInfo();
   }
+    
 }
 
 //수강생 정재경 작업영역
