@@ -4,13 +4,10 @@ import { AppService } from './app.service';
 // 수강생 작업 영역 - 머 추가하라고 함.
 const currentWorker = "Biggy smalls real name, no gimmicks";
 
-<<<<<<< HEAD
-@Controller()
-export class AppController { // 주석달기
-=======
+
 @Controller()//asdf
 export class AppController {
->>>>>>> bb5f1fc (complete stash test)
+
   constructor(private readonly appService: AppService) {}
 
   
@@ -24,13 +21,11 @@ export class AppController {
     return this.appService.checkDatabase();
   }
 
-<<<<<<< HEAD
+
   // stash 후 server-info add comment
   @Get('server-info') ///asdf wasd
   //git stash111111
-=======
-  @Get('server-info')//asdf
->>>>>>> c9a5cc8 (stash test)
+
   getServerInfo() {
     return this.appService.getServerInfo();
   } // TESTTESTESTs
