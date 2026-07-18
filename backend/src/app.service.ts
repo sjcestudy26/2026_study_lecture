@@ -59,8 +59,4 @@ export class AppService {
       port: process.env.PORT ?? 3000,
     };
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 557768356c4f382ae6dc62fe56833d2b86d80c2b
