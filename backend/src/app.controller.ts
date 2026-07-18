@@ -18,7 +18,8 @@ export class AppController {
     return this.appService.checkDatabase();
   }
 
-  @Get('server-info')
+  
+  @Get('server-info') ///asdf
   getServerInfo() {
     return this.appService.getServerInfo();
   }
