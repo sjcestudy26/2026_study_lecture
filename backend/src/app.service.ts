@@ -43,3 +43,5 @@ export class AppService {
     };
   }
 }
+
+const currentWorker "김효동";
