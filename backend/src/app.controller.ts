@@ -4,7 +4,7 @@ import { AppService } from './app.service';
 
 
 // 수강생 김홍엽 작업 영역
-const currentWorker = "여기는 단풍브랜치요 머지받으시라요";
+const currentWorker = "여기는 단풍브랜치요";
 
 
 @Controller()
