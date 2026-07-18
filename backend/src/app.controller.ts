@@ -26,9 +26,8 @@ export class AppController {
   @Get('server-info') 
   getServerInfo() { //stash할것
     return this.appService.getServerInfo();
-  }
-    
-}
+  } // TESTTESTESTs
+} //hihi
 
 //수강생 정재경 작업영역
 const currentWorker = "정재경";
