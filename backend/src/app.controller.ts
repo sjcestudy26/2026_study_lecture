@@ -17,6 +17,7 @@ export class AppController {
 
   @Get('health')
   getHealth() { //머지??
+
     return this.appService.getHealth();
   }
 
@@ -28,7 +29,7 @@ export class AppController {
   @Get('server-info') 
   getServerInfo() { //stash할것
     return this.appService.getServerInfo();
-  }
+  } // TESTTESTESTs
     
 }
 
