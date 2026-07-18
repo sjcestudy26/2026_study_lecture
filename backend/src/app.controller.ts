@@ -28,6 +28,7 @@ export class AppController {
     return this.appService.getServerInfo();
   } // TESTTESTESTs
 } //hihi
+//hello
 
 //수강생 정재경 작업영역
 const currentWorker = "정재경";
