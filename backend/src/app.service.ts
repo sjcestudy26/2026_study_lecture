@@ -36,11 +36,14 @@ const something = "on my branch"
 >>>>>>> e81dd4c (충돌제거실습)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // injectable
 const something = 'on my branch';
 
 // test
 =======
+=======
+>>>>>>> 584282b (feat:feature/juwhankim)
 =======
 // 수강생 최용재 작업 영역
 const currentWorker = "최용재";
@@ -61,7 +64,13 @@ const currentWorkers = [
   '이정우'
 ];
 >>>>>>> d4eecc6 (Feat: name)
+<<<<<<< HEAD
 >>>>>>> e81dd4c (충돌제거실습)
+=======
+=======
+//test
+>>>>>>> 31c4782 (feat:feature/juwhankim)
+>>>>>>> 584282b (feat:feature/juwhankim)
 
 @Injectable()
 export class AppService {
