@@ -22,6 +22,7 @@ export class AppController {
   }
 
   @Get('server-info')
+  //git stash111111
   getServerInfo() {
     return this.appService.getServerInfo();
   }
