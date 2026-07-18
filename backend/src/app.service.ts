@@ -8,7 +8,7 @@ import { DataSource } from 'typeorm';
 
 // 수강생 송민준 작업 영역
 const currentWorkers = [
-  '이범준1',
+  '이범준',
   '최용재',
   '황윤식',
   '홍정기',
