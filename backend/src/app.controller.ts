@@ -21,6 +21,7 @@ export class AppController {
     return this.appService.checkDatabase();
   }
 
+  // stash 후 server-info add comment
   @Get('server-info')
   getServerInfo() {
     return this.appService.getServerInfo();
