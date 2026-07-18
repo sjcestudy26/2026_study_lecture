@@ -26,7 +26,7 @@ export class AppController { // 주석달기
   @Get('server-info') // wow wonderful
   getServerInfo() { 
   @Get('server-info')
-  getServerInfo() { //222222233333
+  getServerInfo() { //2222222
     return this.appService.getServerInfo();
   } // TESTTESTESTs
 }
