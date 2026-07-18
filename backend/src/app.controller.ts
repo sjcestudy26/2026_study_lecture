@@ -17,11 +17,9 @@ export class AppController {
   checkDatabase() {
     return this.appService.checkDatabase();
   }
-  @Get('server-info')
-  //git stash111111
-
   
-  @Get('server-info') ///asdf
+  @Get('server-info') ///asdf wasd
+  //git stash111111
   getServerInfo() {
     return this.appService.getServerInfo();
   }
