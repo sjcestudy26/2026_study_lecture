@@ -35,3 +35,6 @@ export class AppController {
 
 //수강생 정재경 작업영역
 const currentWorker = "정재경";
+
+//sdfdsfs
+const currentWorker1 = "송민준";
