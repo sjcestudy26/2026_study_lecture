@@ -12,6 +12,7 @@ const currentWorkers = [
   '김효동1',
   'ASH',
   '송민준'
+  '이정우1111'
   'cool_guy'
   '이정우'
   '정재경'
