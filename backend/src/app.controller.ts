@@ -19,15 +19,12 @@ export class AppController { // 주석달기
     return this.appService.checkDatabase();
   }
 
-<<<<<<< HEAD
   // stash 후 server-info add comment
   @Get('server-info') ///asdf wasd
   //git stash111111
   getServerInfo() {
-=======
   @Get('server-info') // wow wonderful
   getServerInfo() { 
->>>>>>> c5bdcbe (feat: 최용재의 일상)
     return this.appService.getServerInfo();
   } // TESTTESTESTs
 }
