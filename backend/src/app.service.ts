@@ -2,6 +2,9 @@ import { Injectable, ServiceUnavailableException } from '@nestjs/common';
 import { InjectDataSource } from '@nestjs/typeorm';
 import { DataSource } from 'typeorm';
 
+// 수강생 최용재 작업 영역
+const currentWorker = "최용재";
+
 @Injectable()
 export class AppService {
   private readonly startedAt = Date.now();
