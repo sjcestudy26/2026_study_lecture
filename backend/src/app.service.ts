@@ -15,7 +15,8 @@ const currentWorkers = [
   '김효동',
   'ASH',
   '송민준'
-  '이정우'
+  '이정우',
+  '양나은'
 ];
 
 @Injectable()
