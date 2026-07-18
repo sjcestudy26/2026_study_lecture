@@ -4,6 +4,10 @@ import { AppService } from './app.service';
 // 수강생 작업 영역 - 머 추가하라고 함.
 const currentWorker = "Biggy smalls real name, no gimmicks";
 
+
+// 수강생 송민준 작업 영역
+const currentWorker = "민쭈니다";
+
 @Controller()
 export class AppController { // 주석달기
   constructor(private readonly appService: AppService) {}
@@ -27,8 +31,3 @@ export class AppController { // 주석달기
   } // TESTTESTESTs
 }
 
-//수강생 정재경 작업영역
-const currentWorker = "정재경";
-
-//sdfdsfs
-const currentWorker1 = "송민준";
