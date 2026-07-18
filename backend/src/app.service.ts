@@ -2,8 +2,26 @@ import { Injectable, ServiceUnavailableException } from '@nestjs/common';
 import { InjectDataSource } from '@nestjs/typeorm';
 import { DataSource } from 'typeorm';
 
+<<<<<<< HEAD
+// 수강생 최용재 작업 영역
+const currentWorker = "최용재";
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+// 수강생 황윤식 작업 영역
+const currentWorker = "황윤식";
+=======
+=======
+// 수강생 홍정기 작업 영역
+const currentWorker = "홍정기";
+>>>>>>> d5509e31fb93b089cf7ddf300df05333dcec6e76
+
+>>>>>>> b2422c8a7d40d32df7fae429a78ddff7ee4ea69f
+>>>>>>> ffe3a7d76e9d2d68271aa947a2a142b16818896c
+
 @Injectable()
 export class AppService {
+  const currentWorker = "ddd";
   private readonly startedAt = Date.now();
 
   constructor(@InjectDataSource() private readonly dataSource: DataSource) {}
@@ -43,3 +61,5 @@ export class AppService {
     };
   }
 }
+
+const currentWorker "김효동";
