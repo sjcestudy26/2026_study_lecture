@@ -20,11 +20,12 @@ export class AppController {
   checkDatabase() {
     return this.appService.checkDatabase();
   }
-
+/*
   @Get('server-info')
   getServerInfo() {
     return this.appService.getServerInfo();
   }
+    */
 }
 
 //수강생 정재경 작업영역
