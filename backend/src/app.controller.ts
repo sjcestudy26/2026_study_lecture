@@ -11,7 +11,7 @@ const currentWorker = "으아아아악";
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Get('health')
+  @Get('health') // 하이
   getHealth() {
     return this.appService.getHealth();
   }
@@ -28,4 +28,4 @@ export class AppController {
 }
 
 //수강생 정재경 작업영역
-const currentWorker = "정재경";
+const currentWorker = "송민준";
