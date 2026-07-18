@@ -23,6 +23,12 @@ const something = "on my branch heyeyeye"
 >>>>>>> 650a031 (쓸데없는 코드 제거)
 >>>>>>> 66fc25f (정리)
 
+<<<<<<< HEAD
+=======
+//injectable
+const something = "on my branch heyeyeye"
+
+>>>>>>> d26854f (new message)
 
 @Injectable()
 export class AppService {
