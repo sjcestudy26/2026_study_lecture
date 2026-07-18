@@ -1,6 +1,7 @@
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 
+
 //asdf
 //qwerty
 // git rebase main -> 코드 수정 -> git add . -> git rebase --continue 
@@ -16,8 +17,7 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get('health')
-  getHealth() { //머지??
-
+  getHealth() {//니니게그런사람이나힐순없는지니곁에있는니친구가아니라 //머지??
     return this.appService.getHealth();
   }
 
