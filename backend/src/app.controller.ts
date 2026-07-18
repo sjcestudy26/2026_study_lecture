@@ -14,11 +14,15 @@ export class AppController { // 주석달기
   constructor(private readonly appService: AppService) {}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   
   @Get('health') // 하이
   getHealth() { //머지??
 =======
   @Get('health') //주석입니다 ㅎㅇ ㅎㅎㅎㅎㅎ
+=======
+  @Get('health')
+>>>>>>> 81bc205 (origin)
   getHealth() {
 >>>>>>> c0afb7e (git stash)
     return this.appService.getHealth();
@@ -33,7 +37,6 @@ export class AppController { // 주석달기
   @Get('server-info') ///asdf wasd
   //git stash111111
   getServerInfo() {
-    //안녕하세요
     return this.appService.getServerInfo();
   } // TESTTESTESTs
 }
