@@ -1,7 +1,8 @@
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 
-
+// git rebase main -> 코드 수정 -> git add . -> git rebase --continue 
+// -> git log --oneline -> git push origin feature/각자브랜치 --force
 
 // 수강생 김홍엽 작업 영역
 const currentWorker = "으아아아악";
