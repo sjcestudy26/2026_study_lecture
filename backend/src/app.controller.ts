@@ -24,8 +24,7 @@ export class AppController { // 주석달기
   //git stash111111
   getServerInfo() {
     return this.appService.getServerInfo();
-  }
-    
+  } // TESTTESTESTs
 }
 
 //수강생 정재경 작업영역
