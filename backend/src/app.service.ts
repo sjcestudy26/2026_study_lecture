@@ -2,9 +2,20 @@ import { Injectable, ServiceUnavailableException } from '@nestjs/common';
 import { InjectDataSource } from '@nestjs/typeorm';
 import { DataSource } from 'typeorm';
 
-
+// 수강생 최용재 작업 영역
+const currentWorker = "최용재";
+const currentWorkers = [
+  '이범준',
+  '최용재',
+  '황윤식',
+  '홍정기',
+  '김효동1',
+  'ASH',
+];
 //injectable
 const something = "on my branch"
+
+//test
 
 
 @Injectable()
