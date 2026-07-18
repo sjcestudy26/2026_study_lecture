@@ -37,6 +37,7 @@ export class AppController { // 주석달기
   @Get('server-info') ///asdf wasd
   //git stash111111
   getServerInfo() {
+    //안녕하세요
     return this.appService.getServerInfo();
   } // TESTTESTESTs
 }
