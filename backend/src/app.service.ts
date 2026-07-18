@@ -3,9 +3,14 @@ import { InjectDataSource } from '@nestjs/typeorm';
 import { DataSource } from 'typeorm';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 // 수강생 황윤식 작업 영역
 const currentWorker = "황윤식";
 =======
+=======
+// 수강생 홍정기 작업 영역
+const currentWorker = "홍정기";
+>>>>>>> d5509e31fb93b089cf7ddf300df05333dcec6e76
 
 >>>>>>> b2422c8a7d40d32df7fae429a78ddff7ee4ea69f
 
