@@ -1,12 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 
-
-
-// 수강생 김홍엽 작업 영역
-const currentWorker = "으아아아악";
-
-
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
@@ -21,7 +15,8 @@ export class AppController {
     return this.appService.checkDatabase();
   }
 
-  @Get('server-info')
+  
+  @Get('server-info') ///asdf
   getServerInfo() {
     return this.appService.getServerInfo();
   }
