@@ -4,6 +4,7 @@ import { DataSource } from 'typeorm';
 
 @Injectable()
 export class AppService {
+  const currentWorker = "ddd";
   private readonly startedAt = Date.now();
 
   constructor(@InjectDataSource() private readonly dataSource: DataSource) {}
