@@ -1,8 +1,8 @@
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 
-// 수강생 작업 영역 - 머 추가하라고 함.
-const currentWorker = "Biggy smalls real name, no gimmicks";
+
+
 
 @Controller()
 export class AppController { // 주석달기
@@ -26,9 +26,3 @@ export class AppController { // 주석달기
     return this.appService.getServerInfo();
   } // TESTTESTESTs
 }
-
-//수강생 정재경 작업영역
-const currentWorker = "정재경";
-
-//sdfdsfs
-const currentWorker1 = "송민준";
