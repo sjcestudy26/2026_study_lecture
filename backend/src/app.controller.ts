@@ -26,9 +26,10 @@ export class AppController {
     return this.appService.checkDatabase();
   }
 
-  @Get('server-info') 
-  getServerInfo() { //stash할것
-    return this.appService.getServerInfo();
+  // stash 후 server-info add comment
+  @Get('server-info') ///asdf wasd //git stash111111 // wow wonderful
+  getServerInfo() {
+      return this.appService.getServerInfo();
   } // TESTTESTESTs
     
 }
