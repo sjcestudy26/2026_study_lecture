@@ -23,7 +23,7 @@ export class CommentsService {
     await this.postsService.findOne(postId);
 
     const comment = this.commentsRepository.create({
-      content: dto.content,
+      content: '댓글: ' +  dto.content,
       postId,
       authorId: user.id,
     });
