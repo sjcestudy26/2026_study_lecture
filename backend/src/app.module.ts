@@ -23,7 +23,7 @@ import { Comment } from './comments/comment.entity';
         host: configService.get<string>('DB_HOST', 'localhost'),
         port: configService.get<number>('DB_PORT', 3306),
         username: configService.get<string>('DB_USERNAME', 'root'),
-        password: configService.get<string>('DB_PASSWORD', ''),
+        password: configService.get<string>('DB_PASSWORD', 'root'),
         database: configService.get<string>('DB_DATABASE', 'lecture_eval'),
         entities: [User, Post, Comment],
         synchronize: true,
