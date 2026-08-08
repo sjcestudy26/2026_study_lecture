@@ -22,6 +22,11 @@ interface AuthContextValue {
 const AuthContext = createContext<AuthContextValue | null>(null);
 
 function saveSession(data: AuthResponse) {
+  if (!data?.accessToken || !data?.user) {
+    console.error('Invalid auth response:', data);
+    throw new Error('Invalid auth response');
+  }
+
   localStorage.setItem('accessToken', data.accessToken);
   localStorage.setItem('user', JSON.stringify(data.user));
 }
@@ -29,7 +34,16 @@ function saveSession(data: AuthResponse) {
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(() => {
     const saved = localStorage.getItem('user');
-    return saved ? (JSON.parse(saved) as User) : null;
+
+    if (!saved || saved === 'undefined') {
+      return null;
+    }
+    try {
+      return JSON.parse(saved) as User;
+    } catch {
+      localStorage.removeItem('user');
+      return null;
+    }
   });
   const [isLoading, setIsLoading] = useState(true);
 
@@ -68,17 +82,21 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const register = useCallback(
-    async (email: string, password: string, name: string) => {
-      const { data } = await api.post<AuthResponse>('/auth/register', {
-        email,
-        password,
-        name,
-      });
-      saveSession(data);
-      setUser(data.user);
-    },
-    [],
-  );
+  async (email: string, password: string, name: string) => {
+    const response = await api.post('/auth/register', {
+      email,
+      password,
+      name,
+    });
+
+    console.log('REGISTER RESPONSE 전체:', response);
+    console.log('REGISTER RESPONSE.data:', response.data);
+
+    saveSession(response.data);
+    setUser(response.data.user);
+  },
+  [],
+);
 
   const logout = useCallback(() => {
     localStorage.removeItem('accessToken');
