@@ -28,6 +28,14 @@ export class AppController {
   getServerInfo() {
       return this.appService.getServerInfo();
   } // TESTTESTESTs
+
+  @Get('test')
+  getTest() {
+    return {
+      status: 'ok',
+      test: 'pass',
+    };
+  }
     
 }
 
