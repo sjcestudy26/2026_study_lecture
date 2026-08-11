@@ -15,8 +15,8 @@ npm run build:zip:frontend # deploy/frontend-deploy.zip
 
 | 파일 | 내용 |
 |------|------|
-| `deploy/backend-deploy.zip` | `dist/`, `package.json`, `package-lock.json`, `.env.example` |
-| `deploy/frontend-deploy.zip` | `dist/` (React 빌드 결과) |
+| `deploy/backend-deploy.zip` | `dist/`, `package.json`, `package-lock.json`, `.env.example`, `launch-backend.config.js` |
+| `deploy/frontend-deploy.zip` | `dist/`, `launch-frontend.config.js`, `start.sh` (React 빌드 결과) |
 
 > `.env`는 비밀번호가 들어가므로 zip에 넣지 않습니다. EC2에서 `.env.example`을 복사해 직접 작성하세요.
 
@@ -30,9 +30,12 @@ npm run build:zip:frontend # deploy/frontend-deploy.zip
 │   ├── dist/
 │   ├── package.json
 │   ├── package-lock.json
-│   └── .env
+│   ├── .env
+│   └── launch-backend.config.js
 └── frontend/
-    └── dist/         ← frontend-deploy.zip 압축 해제 (dist 폴더 내용)
+    ├── dist/         ← frontend-deploy.zip 압축 해제 (dist 폴더 내용)
+    ├── launch-frontend.config.js
+    └── start.sh
 ```
 
 nginx 설정: `deploy/nginx.conf.example` 참고 (별도 업로드)
