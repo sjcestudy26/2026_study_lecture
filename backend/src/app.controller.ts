@@ -29,7 +29,7 @@ export class AppController {
       return this.appService.getServerInfo();
   } // TESTTESTESTs
 
-  @Get('test')
+  @Get('backend_api/test')
   getTest() {
     return {
       status: 'ok',
