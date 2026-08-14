@@ -87,6 +87,7 @@ CORS_ORIGINS=http://localhost:5173,http://13.125.x.x:5173
 cd backend
 copy .env.example .env   # Windows
 # .env 파일에서 DB 비밀번호 등 수정
+# 이후 수정 내용: .env는 jenkins에서 관리합니다. git에는 올리지 않습니다.
 
 npm run start:dev
 ```
