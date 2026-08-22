@@ -3,7 +3,14 @@
 Node.js와 NestJS를 기반으로 구현한 강의 평가 백엔드 API 프로젝트입니다.  
 AWS EC2 환경에 App Server, DB Server, Monitoring Server를 분리하여 구성하고, PM2를 이용해 애플리케이션을 실행합니다.
 
+
 애플리케이션의 주요 서버 지표는 `pm2-metrics`를 통해 Prometheus로 수집하고, Grafana를 이용해 시각화합니다.
+
+
+
+## Architecture
+![서비스 아키텍처](https://github.com/willy0518/12345/blob/main/%EC%A0%9C%EB%AA%A9%20%EC%97%86%EB%8A%94%20%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8.drawio.png) 
+
 
 ## 1. 프로젝트 개요
 
