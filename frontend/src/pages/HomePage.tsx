@@ -7,7 +7,7 @@ export function HomePage() {
   return (
     <section className="page-card">
       <h1 className="page-title">강의 평가 시스템</h1>
-      <p>React + NestJS + TypeORM + MySQL + JWT 기반의 간단한 게시판 예제입니다.</p>
+      <p>React + NestJS + TypeORM + MySQL + JWT + STUDY 기반의 간단한 게시판 예제입니다.</p>
       <ul>
         <li>회원가입 / 로그인 (JWT 인증)</li>
         <li>게시판 CRUD + 댓글</li>
