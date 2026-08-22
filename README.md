@@ -81,6 +81,9 @@ CORS_ORIGINS=http://localhost:5173,http://13.125.x.x:5173
 | 백엔드가 계속 Retrying... | MySQL 비밀번호/DB 미설정 | `.env`의 `DB_PASSWORD`, DB 생성 확인 |
 | Vite `bundling dependencies...` | 첫 실행 시 의존성 번들링 | 1~2분 기다리면 http://localhost:5173 접속 가능 |
 
+## 0. Architecture
+![서비스 아키텍처]({}) 
+
 ### 1. 백엔드
 
 ```bash
