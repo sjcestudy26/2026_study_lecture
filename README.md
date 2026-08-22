@@ -9,6 +9,10 @@ React + NestJS + TypeORM + MySQL + JWT 기반의 강의용 웹 애플리케이�
 ├── backend/     # NestJS API 서버
 └── frontend/    # React (Vite) 클라이언트
 ```
+## Architecture
+![서비스 아키텍처](https://github.com/willy0518/12345/blob/main/%EC%A0%9C%EB%AA%A9%20%EC%97%86%EB%8A%94%20%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8.drawio.png) 
+
+
 
 ## 포트 및 접속 구조
 
