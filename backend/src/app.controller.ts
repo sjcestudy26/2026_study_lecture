@@ -7,7 +7,11 @@ import { AppService } from './app.service';
 // git rebase main -> 코드 수정 -> git add . -> git rebase --continue 
 // -> git log --oneline -> git push origin feature/각자브랜치 --force
 
+<<<<<<< HEAD
 
+=======
+// 수강생 김홍엽 작업 영역
+>>>>>>> fd9144e341d9695c99018e2ea1f3394a66396507
 
 @Controller()
 export class AppController {
@@ -28,5 +32,18 @@ export class AppController {
   getServerInfo() {
       return this.appService.getServerInfo();
   } // TESTTESTESTs
+
+  @Get('backend_api/test')
+  getTest() {
+    return {
+      status: 'ok',
+      test: 'pass',
+    };
+  }
     
 }
+<<<<<<< HEAD
+=======
+
+//수강생 정재경 작업영역
+>>>>>>> fd9144e341d9695c99018e2ea1f3394a66396507

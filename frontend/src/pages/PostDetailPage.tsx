@@ -81,7 +81,7 @@ export function PostDetailPage() {
               <div className="comment-meta">
                 {comment.author?.name} · {new Date(comment.createdAt).toLocaleString()}
               </div>
-              <div>'댓글: ' + {comment.content}</div>
+              <div>{'댓글: ' + comment.content}</div>
               {canDeleteComment && (
                 <Button
                   size="small"

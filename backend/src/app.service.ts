@@ -12,7 +12,10 @@ export class AppService {
   getHealth() {
     return {
       status: 'ok',
+<<<<<<< HEAD
      
+=======
+>>>>>>> fd9144e341d9695c99018e2ea1f3394a66396507
       timestamp: new Date().toISOString(),
     };
   }

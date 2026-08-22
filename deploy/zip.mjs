@@ -23,7 +23,7 @@ if (target === 'backend' || target === 'all') {
 
 if (target === 'frontend' || target === 'all') {
   execSync('npm run build --prefix frontend', { cwd: root, stdio: 'inherit', shell: true });
-  zip(join(root, 'frontend'), join(deployDir, 'frontend-deploy.zip'), ['dist']);
+  zip(join(root, 'frontend'), join(deployDir, 'frontend-deploy.zip'), ['dist', 'launch-frontend.config.js', 'start.sh']);
   console.log('Created deploy/frontend-deploy.zip');
 }
 
